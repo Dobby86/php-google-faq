@@ -8,3 +8,7 @@ Crearsi un array con i dati come l'ultimo esercizio visto a lezione (hotels) e u
     padding:0;
     box-sizing: border-box;
 }
+.google {
+    text-align: center;
+    background-color: darkgrey;
+}
