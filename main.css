@@ -19,9 +19,13 @@ Crearsi un array con i dati come l'ultimo esercizio visto a lezione (hotels) e u
     margin-left: 30px;
     margin-top: 20px;
 }
-.bo {
-    font-size: 18px;
+.domande {
+    font-size: 24px;
 }
+.risposte {
+    font-size: 16px;
+}
+
 #logo {
     height: 25px;
     cursor: pointer;
@@ -38,6 +42,7 @@ span {
 }
 .sinistrasotto {
     margin-top: 30px;
+    margin-left: 20px;
 }
 .sinistrasotto ul {
     width: 800px;
@@ -55,4 +60,10 @@ span {
 }
 .sinistrasotto li:hover {
     color:blue;
+
+}
+#ciao {
+    color:blue;
+    font-size: 16px;
+
 }
