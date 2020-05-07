@@ -3,16 +3,27 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
+        <!-- Latest compiled and minified CSS -->
 
 
-        <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+
+ <!-- Optional theme -->
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+
+
+        <title>googlata</title>
+
         <?php
-
-
 
         $listaDomande = [
                 [
-                    'domanda' => 'Come state implementando la recente decisione della Corte di giustizia dell\'Unione europea (CGUE) relativa al diritto all \'oblio?',
+                    'domanda' => 'Come state implementando la recente  decisione della Corte di giustizia dell\'Unione europea (CGUE) relativa al diritto all \'oblio?',
                     'risposta' => 'Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un\'elevata sicurezza e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.
 
                     Siamo costantemente al lavoro per garantire un\'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo.
@@ -43,36 +54,75 @@
         ];
 
          ?>
-    </head>
-    <body>
+     </head>
+                <body>
+                    <header>
 
 
 
-        <div class="google">
+                                                <nav id="barra"  class="navbar navbar-default navbar-fixed-top">
+
+                                    <div class="sinistrasopra">
 
 
-        <h1>
-
-            <?php
-
-
-                        foreach ($listaDomande as  $domarispo) {
-                            echo $domarispo ['domanda'] . ' ' . '<br>' ;
-                            echo  "<br>"  ;
-
-                            echo $domarispo ["risposta"] . " " ."<br>"  ;
-                            echo "<br>"  ;
-
-                        }
-
-            ?>
-            </h1>
-                </div>
+                                                    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+                                                    <span>Privacy e termini</span>
 
 
+                                    </div>
 
+                                    <div class="sinistrasotto">
+                                        <ul>
+                                            <li><b> Introduzione</b></li>
+                                            <li><b>Norme sulla privacy</b></li>
+                                            <li><b>Termini di servizio</b></li>
+                                            <li><b>Tecnologie</b></li>
+                                            <li> <b>Domande frequenti</b></li>
+                                        </ul>
+
+                                    </div>
 
 
 
-    </body>
+                            </nav>
+
+                    </header>
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="scritta">
+
+
+
+                            <h1 class="bo">
+
+                                <?php
+
+                                            foreach ($listaDomande as  $domarispo) {
+                                                echo $domarispo ['domanda'] . ' ' . '<br>' ;
+                                                echo  "<br>"  ;
+
+                                                echo $domarispo ["risposta"] . " " ."<br>"  ;
+                                                echo "<br>"  ;
+
+                                            }
+
+                                ?>
+                            
+
+                                </h1>
+                                    </div>
+
+
+                            </div>
+
+
+                    </div>
+                    </div>
+
+
+                </body>
 </html>

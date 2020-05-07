@@ -8,7 +8,51 @@ Crearsi un array con i dati come l'ultimo esercizio visto a lezione (hotels) e u
     padding:0;
     box-sizing: border-box;
 }
-.google {
-    text-align: center;
-    background-color: darkgrey;
+[class*= "col-"]{
+    float: left;
+}
+.scritta {
+    text-align: left;
+    margin-top: 199px;
+}
+ .sinistrasopra{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bo {
+    font-size: 18px;
+}
+#logo {
+    height: 25px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+span {
+    color :grey;
+    cursor: pointer;
+    font-size: 20px;
+}
+#barra {
+    height: 120px;
+    border-bottom: 1px grey solid;
+}
+.sinistrasotto {
+    margin-top: 30px;
+}
+.sinistrasotto ul {
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    list-style-type: none;
+}
+.sinistrasotto li {
+    display: inline-block;
+    font-size: 17px;
+    padding: 7px;
+    cursor: pointer;
+    color :grey;
+}
+.sinistrasotto li:hover {
+    color:blue;
 }
